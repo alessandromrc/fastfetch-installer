@@ -5,7 +5,7 @@ This is a convenient installer script to install Fastfetch, a lightweight system
 ## Usage
 1. Run this command on your terminal:
 ```bash
-    curl -sSL https://alessandromrc.github.io/fastfetch-installer/installer.sh | bash
+curl -sSL https://alessandromrc.github.io/fastfetch-installer/installer.sh | bash
 ```
 ## Supported Platforms
 
