@@ -1,4 +1,4 @@
-# Fastfetch Installer
+# [Fastfetch](https://github.com/fastfetch-cli/fastfetch) Installer
 
 This is a convenient installer script to install Fastfetch, a lightweight system information tool, on various Linux distributions.
 
