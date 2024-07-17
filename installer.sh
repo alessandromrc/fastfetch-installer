@@ -26,7 +26,7 @@ install_fastfetch_debian() {
 }
 
 install_fastfetch_arch() {
-    sudo pacman -S fastfetch
+    sudo pacman -S fastfetch --noconfirm
 }
 
 install_fastfetch_fedora() {
