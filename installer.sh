@@ -5,9 +5,9 @@ command_exists() {
 }
 
 install_fastfetch_ubuntu() {
-    sudo add-apt-repository -y ppa:zhangsongcui3371/fastfetch
-    sudo apt update
-    sudo apt install fastfetch
+    add-apt-repository -y ppa:zhangsongcui3371/fastfetch
+    apt update
+    apt install fastfetch
 }
 
 install_fastfetch_debian() {
@@ -26,19 +26,19 @@ install_fastfetch_debian() {
 }
 
 install_fastfetch_arch() {
-    sudo pacman -S fastfetch --noconfirm
+    pacman -S fastfetch --noconfirm
 }
 
 install_fastfetch_fedora() {
-    sudo dnf install fastfetch
+    dnf install fastfetch
 }
 
 install_fastfetch_gentoo() {
-    sudo emerge --ask app-misc/fastfetch
+    emerge --ask app-misc/fastfetch
 }
 
 install_fastfetch_alpine() {
-    sudo apk add --upgrade fastfetch
+    apk add --upgrade fastfetch
 }
 
 install_fastfetch_nixos() {
@@ -46,11 +46,11 @@ install_fastfetch_nixos() {
 }
 
 install_fastfetch_opensuse() {
-    sudo zypper install fastfetch
+    zypper install fastfetch
 }
 
 install_fastfetch_alt() {
-    sudo apt-get install fastfetch
+    apt-get install fastfetch
 }
 
 main() {
