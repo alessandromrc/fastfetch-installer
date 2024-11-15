@@ -17,7 +17,7 @@ install_fastfetch_debian() {
             architecture="aarch64"
         fi
         wget "https://github.com/fastfetch-cli/fastfetch/releases/latest/download/fastfetch-linux-${architecture}.deb" -O /tmp/fastfetch-linux-${architecture}.deb
-        sudo dpkg -i /tmp/fastfetch-linux-${architecture}.deb
+        dpkg -i /tmp/fastfetch-linux-${architecture}.deb
         rm /tmp/fastfetch-linux-${architecture}.deb
     else
         echo "Hey, you need 'wget' to download fastfetch. How about installing it and trying again?"
