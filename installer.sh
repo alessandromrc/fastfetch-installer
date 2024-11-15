@@ -6,8 +6,8 @@ command_exists() {
 
 install_fastfetch_ubuntu() {
     add-apt-repository -y ppa:zhangsongcui3371/fastfetch
-    apt update
-    apt install fastfetch
+    apt update -y
+    apt install fastfetch -y
 }
 
 install_fastfetch_debian() {
@@ -50,7 +50,7 @@ install_fastfetch_opensuse() {
 }
 
 install_fastfetch_alt() {
-    apt-get install fastfetch
+    apt-get install fastfetch -y
 }
 
 main() {
