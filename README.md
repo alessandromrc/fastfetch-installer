@@ -7,6 +7,11 @@ This is a convenient installer script to install Fastfetch, a lightweight system
 ```bash
 curl -sSL https://alessandromrc.github.io/fastfetch-installer/installer.sh | sudo bash
 ```
+
+If using Proxmox or any OS that doesn't provide sudo:
+```bash
+curl -sSL https://alessandromrc.github.io/fastfetch-installer/installer.sh | bash
+```
 ## Supported Platforms
 
 This installer script supports the following Linux distributions:
